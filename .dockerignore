@@ -1,0 +1,22 @@
+# **/*.starpak 
+# **/*.vtf
+# **/*.rpak
+# **/*.bik
+# 
+# !**/*common*.rpak
+# !**/*patch*.rpak
+
+./R2Northstar/logs/*
+
+vpk/client_sp_*
+vpk/englishclient_sp_*
+r2/maps/sp_*
+r2/paks/Win64/**
+!r2/paks/Win64/common*
+!r2/paks/Win64/highlight*
+!r2/paks/Win64/particle_scripts*
+!r2/paks/Win64/ui*
+!r2/paks/Win64/patch_master.rpak
+r2/screenshots/**
+r2/media/**
+r2/sound/**
