@@ -13,7 +13,7 @@
 The process of exposing ports for process isolated containers is a bit more complicated than hyper-v isolation.
 Follow my comment here to open ports when using process isolation: https://github.com/microsoft/Windows-Containers/issues/190#issuecomment-1013519644
 
-if running in a VM, consider allocating extra CPU, as described in: https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/resource-controls, and providing real-time process priority
+if running in a VM, providing real-time process priority to NorthstarLauncher.exe
 
 
 
