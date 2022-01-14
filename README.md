@@ -10,9 +10,11 @@
 
 `docker run <DOCKER_ID>`
 
-Then use: https://docs.microsoft.com/en-us/powershell/module/netsecurity/new-netfirewallrule?view=windowsserver2022-ps to expose ports to the process
+The process of exposing ports for process isolated containers is a bit more complicated than hyper-v isolation.
+Follow my comment here to open ports when using process isolation: https://github.com/microsoft/Windows-Containers/issues/190#issuecomment-1013519644
 
 
-# Run in hyper-v isolation(preferred): 
+
+# Run in hyper-v isolation: 
 
 `docker run -p 8081:8081 -p 37015:37015/udp --memory 8192m --cpus 4 --rm --isolation=hyperv <DOCKER_ID> -dedicated -softwared3d11`
